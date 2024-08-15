@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+     <!-- Navbar  -->
+
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark" data-bs-theme="dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="img.png" alt="logo" style="height: 60px; width: 80px;">
+                </a>
+                <button class="btn btn-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavMenuPanel">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="NavMenuPanel">
+                    <ul class="navbar-nav me-auto item_list">
+                        <li class="nav-item">
+                            <a class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Product</a>
+                        </li>
+                    
+
+                      <!--  dropdown  -->
+
+                      <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input type="text" class="form-control">
+                        <button class="btn btn-outline-light mx-2" type="submit">Search</button>
+                    </form>
+
+                </div>
+
+
+                 
+            </div>
+        </nav>
+    
+           <!-- Button -->
+
+        <p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                         <Button class="btn btn-primary">Button-1</Button>
+                         <Button class="btn btn-outline-primary">Button-2</Button>
+                         <Button class="btn btn-warning">Button-3</Button>
+                         <Button class="btn btn-outline-warning">Button-4</Button>
+                         <Button class="btn btn-success">Button-5</Button>
+                         <Button class="btn btn-outline-success">Button-6</Button>
+                         <Button class="btn btn-dark">Button-7</Button>
+                         <Button class="btn btn-outline-info">Button-8</Button>
+                         <Button class="btn btn-outline-dark">Button-9</Button>
+                         <Button class="btn btn-outline-secondary">Button-10</Button>
+                    </div>
+
+                </div>
+            </div>
+        </p>
+
+        <!-- card -->
+
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <u>
+                    <div class="text-center mb-5">
+                        <strong class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Card</span></strong>
+                    </div>
+                </u>
+
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Card Name </h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                    </div>
+                                    <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Form   -->
+        <div class="text-center mb-5">
+            <u><strong class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Form Group</span></strong></u>
+        </div>
+     <div class="container">
+         <div class="row gx-5 justify-content-center">
+             <div class="col-lg-8 col-6">
+
+                 <form id="contactForm">
+                     <!-- Name input-->
+                     <div class="form-floating mb-3">
+                         <input class="form-control" id="name" type="text" placeholder="Enter your name..."/>
+                         <label for="name">Full name</label>
+                     </div>
+                     <!-- Email address input-->
+                     <div class="form-floating mb-3">
+                         <input class="form-control" id="email" type="email" placeholder="name@example.com" />
+                         <label for="email">Email address</label>
+                     </div>
+                     <!-- Phone number input-->
+                     <div class="form-floating mb-3">
+                         <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"/>
+                         <label for="phone">Phone number</label>
+                     </div>
+                     <!-- Message input-->
+                     <div class="form-floating mb-3">
+                         <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                         <label for="message">Message</label>
+                     </div>
+                     <div class="text-center ">
+                         <button class="btn btn-lg btn-primary "><span class="text-gradient d-inline">Submit</span></button>
+                     </div>
+                 </form>
+             </div>
+         </div>
+
+     </div>
+
+
+
+        <!-- List Group -->
+
+        <br>
+        <div class="text-center mb-5">
+            <u>
+                <strong class="display-5 fw-bolder ">List Group</strong>
+            </u>
+        </div>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">An active item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+
+      <!-- Progress Bar  -->
+
+        <br>
+        <div class="text-center mb-5">
+            <u>
+                <strong class="display-5 fw-bolder ">Progress Bar</strong>
+            </u>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 p-3">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                    </div>
+                    <br>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%">60%</div>
+                    </div>
+                    <br>
+                    <progress type="range"  max="100">
+                 </div>
+            </div>
+        </div>
+
+          <!-- Pagination  -->
+        <br>
+        <div class="text-center mb-5">
+            <u>
+                <strong class="display-5 fw-bolder ">Pagination</strong>
+            </u>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+       <!-- table -->
+
+        <br>
+        <div class="text-center mb-5">
+           <u>
+             <strong class="display-5 fw-bolder ">Table</strong>
+           </u>
+        </div>
+
+          <div class="container">
+              <table class="table table-dark table-hover ">
+                  <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+
+
+
+
+
+
+
+
+
+        <script src="bootstrap.bundle.js"></script>
+    </body>
+</html>
